@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="AmazonProject1(failed)" verbose="0">
+    <classes>
+      <class name="amazon_Package.AmazonProject_Maven.TestCase11">
+        <methods>
+          <include name="productpage"/>
+        </methods>
+      </class> <!-- amazon_Package.AmazonProject_Maven.TestCase11 -->
+      <class name="amazon_Package.AmazonProject_Maven.TestCase2">
+        <methods>
+          <include name="quitbrowser"/>
+          <include name="launchBrowser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- amazon_Package.AmazonProject_Maven.TestCase2 -->
+    </classes>
+  </test> <!-- AmazonProject1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
